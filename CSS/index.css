@@ -1,0 +1,107 @@
+/* 网页顶部 */
+.head_box{width: 100%;height: 40px;background-color: #333;}
+.head_box .head_wrep{width: 1226px;height: 40px;margin: 0 auto}
+.head_box .head_wrep .head_nav{float: left;line-height: 40px;text-align: center;color: #b0b0b0;font-size: 12px}
+.head_box .head_wrep .head_nav a{text-decoration: none;color: #b0b0b0;margin: 0 10px}
+.head_box .head_wrep .head_nav a:hover{text-decoration: none;color: #fff}
+.head_box .head_wrep .head_right{float: right;line-height: 40px;text-align: center;color: #b0b0b0;font-size: 15px}
+.head_box .head_wrep .head_right .head_landing{float: left;margin-right: 10px}
+.head_box .head_wrep .head_right .head_landing a{text-decoration: none;color: #b0b0b0;margin-right: 5px}
+.head_box .head_wrep .head_right .head_landing a:hover{text-decoration: none;color: #fff}
+.head_box .head_wrep .head_right .head_car{float: right;width: 100px;height: 40px;background: #424242;text-align: center}
+.head_box .head_wrep .head_right .head_car a{text-decoration: none;color: #b0b0b0}
+.head_box .head_wrep .head_right .head_car a:hover{text-decoration: underline;color: #fff}
+/* 网站顶部 CSS End */
+
+/* 网站导航 start */
+.dao{width: 100%;height: 100px;}
+.dao .kuang{margin: 0 auto;width: 1226px;}
+.dao .kuang .logo{float: left;text-align: center;margin: 20px 10px}
+.dao .kuang .menu{float: left;margin-left: 200px;height: 100%;line-height: 100px}
+.dao .kuang .menu .menu_li{float: left;margin: 0 15px;cursor: pointer;}
+.dao .kuang .zhao{float: right;height: 50px;width: 300px;border: 1px solid #f0f0f0;margin-top:25px }
+.dao .kuang .zhao .shou .ge{float: left;border: none;line-height: 50px;outline: none;}
+.dao .kuang .zhao .go{float: right;width: 50px;height: 50px;font-weight: bold;line-height: 50px;border-left:1px solid #f0f0f0;cursor: pointer;text-align: center}
+/* 网站导航 end */
+
+/* 网站侧边导航+轮播图 Start */
+.jiemian{ width: 1226px;height: 460px;margin: 0 auto;color: #424242;position: relative;cursor: pointer;} 
+.jiemian .jiemian-menu{width: 235px;height: 100%;float: left;position: absolute;background: rgba(0,0,0,0.8);z-index: 600;color: #fff;font-size: 14px;}
+.jiemian .jiemian-menu li{width: 100%;height: 42px;line-height: 40px;}
+.jiemian .jiemian-menu .jiemian-menu-li{margin-top:20px }
+.jiemian .jiemian-menu a{font-size: 13px;color: #ffffff;margin-left: 30px;float: left;text-decoration: none;}
+.jiemian .jiemian-menu .jiemian-menu-a{margin-right:20px;float: right;font-size: 20px;}
+/* 网站侧边导航+轮播图 End */
+
+/*  网站分类导航 Start  */
+/* 6方框 */
+.yida{width: 1226px;height: 200px;margin: 0 auto}
+.yida .start{float: left;;width: 235px;height: 171px;background-color: #b0b0b0;color: #fff;margin: 20px 5px 20px 0;font-size: 13px;}
+.yida .start ul li{text-align: center}
+.yida .start .div1,.div2,.div3,.div4,.div5,.div6{float: left;width: 73px;height: 77px;margin: 3px 1px}
+.yida .start .div1 p,.div2 p,.div3 p,.div4 p,.div5 p,.div6 p{margin-top: 14px;}
+.yida .start .div1{border-bottom: 1px solid #888;border-right: 1px solid #888;}
+.yida .start .div2{border-bottom: 1px solid #888;border-right: 1px solid #888;border-left: 1px solid #888;}
+.yida .start .div3{border-bottom: 1px solid #888;border-left: 1px solid #888;}
+.yida .start .div4{border-top: 1px solid #888;border-right: 1px solid #888;}
+.yida .start .div5{border-top: 1px solid #888;border-right: 1px solid #888;border-left: 1px solid #888;}
+.yida .start .div6{border-top: 1px solid #888;border-left: 1px solid #888;}
+/* 6方框 */
+.yida .yuyue,.shouji,.pingban{float: right;margin: 20px 0 20px 12px}
+/*  网站分类导航 End  */
+
+/* 小米明星单品 Start */
+.mingxing{width: 100%;height: 50px;}
+.mingxing .banpin{height: 50px;width: 1226px;margin: 0 auto;}
+.mingxing .banpin .qwer{float: left;}
+.mingxing .banpin .banpin-1{font-size: 25px;font-weight: 100;}
+.mingxing .banpin  .jiantou{float: right;width: 110px;height: 25px;text-align:center;line-height: 25px;}
+.mingxing .banpin  .jiantou1,.jiantou2{display: block;float: right;line-height: 25px;padding: 0 15px;font-size: 20px;cursor: pointer;border: 1px solid #f0f0f0;color: #b0b0b0;}
+/* 小米明星单品 End */
+
+/* 电视 Start */
+.dianshi{width: 100%;height: 400;color: #424242;}
+.dianshi .dianshi-div{width: 1226px;height: 350px;margin: 0 auto;}
+.dianshi .dianshi-div ul{width: 1226px;height: 250px;}
+.dianshi .dianshi-div ul li{float: left;width: 237px;height: 300px;padding-top: 20px;margin-right: 8px;text-align: center;background: #fafafa;border-top: 1px solid red;}
+.dianshi .dianshi-div ul li a{display: block;text-decoration: none;}
+.dianshi .dianshi-div ul li a:hover{text-decoration: none}
+.dianshi .dianshi-div .dianshi-div-a1{margin: 15px auto;color: #333;font-size: 13px}
+.dianshi .dianshi-div .dianshi-div-a2{color: #b0b0b0;font-size: 12px;}
+/* 电视 End */
+
+/* 智能硬件 Start */
+.zhineng{width: 100%;height: 760px;background-color: #f5f5f5;}
+.zhineng .zhineng-zi{width: 1226px;height: 70px;margin: 0 auto;font-size: 25px;font-weight: 100;color: #424242;line-height: 70px;margin-top: 20px;}
+.zhineng .zhineng-tu{width: 1226px;margin: 0 auto;}
+.zhineng .zhineng-tu .zhineng-tu-kongtiao{float: left;}
+.zhineng .zhineng-tu .zhineng-tu-li{float: right;width: 235px;height: 300px;background-color: #fff;margin: 5px;text-align: center}
+.zhineng .zhineng-tu .zhineng-tu-li .zhineng-tu-li-hei{font-size: 15px;color: #424242;text-decoration: none;line-height: 30px;cursor: pointer;}
+.zhineng .zhineng-tu .zhineng-tu-li .zhineng-tu-li-shi{font-size: 12px;color: #bebebe;text-decoration: none;cursor: pointer;}
+.zhineng .zhineng-tu .zhineng-tu-li .zhineng-tu-li-shu{font-size: 15px;color: #f00;text-decoration: none;line-height: 45px;cursor: pointer;}
+/* 智能硬件 End */
+
+/* 最后 Start */
+.zuihou{height: 350px;width: 1226px;margin: 0 auto;}
+.zuihou .zuihou-shang{width: 1226px;height: 80px;margin: 0 auto;border-bottom: 1px solid #b0b0b0;color: #b0b0b0;}
+.zuihou .zuihou-shang a{color: #b0b0b0;text-decoration: none;margin: 0 auto;line-height: 80px;padding: 0 50px;}
+.zuihou .zuihou-shang .zuihou-shang1{padding: 0 50px 0 125px;}
+.zuihou .zuihou-shang span{font-size: 27px;font-weight: 150;}
+
+.zuihou .zuihou-zhong{width: 100%;height: 175px;}
+.zuihou .zuihou-zhong .zuihou-bangzhu{float: left;overflow: hidden;width: 80;height:160;margin: 10px 62px;color: #b0b0b0;font-size: 13px;}
+.zuihou .zuihou-zhong .zuihou-bangzhu .zuihou-bangzhu1{float: left;width: 60px;height: 150px;margin: 0 0 0 98px;}
+.zuihou .zuihou-zhong .zuihou-bangzhu .zuihou-bangzhu1 li{padding: 7px 0;cursor: pointer;}
+.zuihou .zuihou-zhong .zuihou-bangzhu .zuihou-bangzhu1 .zuihou-bangzhu1-li{color: #424242;font-size: 15px;padding: 20px 0;}
+
+.zuihou .zuihou-zhong .zuihou-haoma{float: right;margin: 10px 0 0;width: 255px;height: 170px;text-align: center;border-left: 1px solid #b0b0b0}
+.zuihou .zuihou-zhong .zuihou-haoma .zuihou-haoma-1{color: #f00;font-size: 18px;padding: 20px 0 10px;}
+.zuihou .zuihou-zhong .zuihou-haoma .zuihou-haoma-2,.zuihou-haoma-3{font-size: 13px;padding: 3px 0;}
+.zuihou .zuihou-zhong .zuihou-haoma .zuihou-haoma-4{font-size: 13px;color: #f00;margin: 10px auto;width: 120px;padding: 6px 0;border: 1px solid red}
+
+.zuihou .zuihou-zuihou{width: 580px;height: 50px;margin: 10px 0;font-size: 12px;} 
+.zuihou .zuihou-zuihou .zuihou-zuihou-logo{float: left;}
+.zuihou .zuihou-zuihou .zuihou-zuihou-div{float: right;color: #b0b0b0;margin:5px;}
+.zuihou .zuihou-zuihou .zuihou-zuihou-div .zuihou-zuihou-a{color: #b0b0b0;padding: 5px;text-decoration: none;}
+.zuihou .zuihou-zuihou .zuihou-zuihou-div .zuihou-zuihou-a:hover{text-decoration: underline}
+/* 最后 End */
